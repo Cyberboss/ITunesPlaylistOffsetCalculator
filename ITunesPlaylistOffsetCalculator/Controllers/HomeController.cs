@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
 namespace ITunesPlaylistOffsetCalculator.Controllers
 {
@@ -10,7 +6,7 @@ namespace ITunesPlaylistOffsetCalculator.Controllers
 	{
 		public ActionResult Index()
 		{
-			ViewBag.Title = "Home Page";
+			ViewBag.Title = "You are surrounded by music and mystery...";
 
 			return View();
 		}

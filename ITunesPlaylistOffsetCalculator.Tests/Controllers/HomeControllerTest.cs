@@ -19,7 +19,7 @@ namespace ITunesPlaylistOffsetCalculator.Tests.Controllers
 
 			// Assert
 			Assert.IsNotNull(result);
-			Assert.AreEqual("Home Page", result.ViewBag.Title);
+			Assert.AreEqual("You are surrounded by music and mystery...", result.ViewBag.Title);
 		}
 	}
 }
